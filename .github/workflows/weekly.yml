@@ -3,7 +3,7 @@ name: Weekly New Listings (TSX-V + CSE)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 14 * * 1"  # 14:05 UTC Mondays ≈ 07:05 America/Edmonton (MST)
+    - cron: "5 14 * * 1" # Mondays 14:05 UTC ≈ 07:05 America/Edmonton (MST)
 
 jobs:
   run:
